@@ -22,10 +22,10 @@
 
 <body class="mx-2 lg:mx-10">
     <header>
-        <div class="container mx-auto lg:px-24 px-8 my-8 hidden">
-            <div class="flex-1">
+        <div class="navbar lg:mb-14">
+            <div class="navbar-start">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -33,7 +33,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 hidden">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -41,33 +41,24 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-
+                <p class=" lg:text-4xl font-extrabold">Hockey<span class="text-[#ff4240]">'</span>s</p>
             </div>
-            <div class="flex justify-between items-center">
-                <div>
-                    <h2 class="text-[#131318] font-extrabold lg:text-3xl">BD Hockey<span
-                            class="text-[#FF4240]">'</span>s
-                        Club</h2>
-                </div>
-                <div>
-                    <div class="navbar-center space-x-4 hidden lg:flex text-[#424247] font-normal font-manrope">
-
-                        <a href="#"><span class="text-[#FF4240]">Home</span></a>
-                        <a href="#">About</a>
-                        <a href="#">Pages</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
-                    </div>
-                </div>
-                <div class="navbar-end flex gap-3">
-                    <img src="Images/search.svg" alt="">
-                    <a class="btn bg-[#FF4240] rounded-lg px-6 py-4 text-white">Get Ticket</a>
-                </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-[#ff4240]">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="bg-[#ff4240] px-4 py-2 lg:px-6 lg:py-4 rounded-md text-white">Get Ticket</a>
             </div>
         </div>
         <!-- slider section -->
         <section>
-            <div class="carousel w-full lg:h-[500px]">
+            <div class="carousel lg:w-full lg:h-[500px]">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -146,7 +137,8 @@
         <section>
             <div class="text-center font-manrope mb-20">
                 <h2 class="text-[#131318] font-extrabold lg:text-3xl mb-4">Program Sections</h2>
-                <p class="text-[#13131899] opacity-80 text-base font-medium lg:w-[600px] mx-auto">There are major leagues
+                <p class="text-[#13131899] opacity-80 text-base font-medium lg:w-[600px] mx-auto">There are major
+                    leagues
                     around the world, including the National Hockey League in North America,</p>
             </div>
             <div>
@@ -157,8 +149,11 @@
                         <div class="hero-content text-center lg:text-start text-neutral-content">
                             <div class="max-w-md">
                                 <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
-                                <p class="mb-5 lg:w-[500px] text-[#fff] font-medium ">Junior programs are an essential part of the player development pathway in many hockey-playing countries</p>
-                                <button class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register Now!</button>
+                                <p class="mb-5 lg:w-[500px] text-[#fff] font-medium ">Junior programs are an essential
+                                    part of the player development pathway in many hockey-playing countries</p>
+                                <button
+                                    class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register
+                                    Now!</button>
                             </div>
                         </div>
                     </div>
@@ -168,8 +163,11 @@
                         <div class="hero-content text-center lg:text-start text-neutral-content">
                             <div class="max-w-md">
                                 <h1 class="mb-5 text-3xl font-extrabold">Teenager Program</h1>
-                                <p class="mb-5 lg:w-[500px] text-[#fff] font-medium "> A "Teenager Program" could refer to a <br>specific educational program</p>
-                                <button class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register Now!</button>
+                                <p class="mb-5 lg:w-[500px] text-[#fff] font-medium "> A "Teenager Program" could refer
+                                    to a <br>specific educational program</p>
+                                <button
+                                    class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register
+                                    Now!</button>
                             </div>
                         </div>
                     </div>
@@ -180,8 +178,10 @@
                     <div class="hero text-center lg:text-start text-neutral-content lg:-ml-[650px] lg:-mb-[120px]">
                         <div class="max-w-md">
                             <h1 class="mb-5 text-3xl font-extrabold">Professional Program</h1>
-                            <p class="mb-5 text-[#fff] font-medium lg:w-[500px]">This could include professional programs in fields such as law, medicine, engineering, business, or education</p>
-                            <button class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register Now!</button>
+                            <p class="mb-5 text-[#fff] font-medium lg:w-[500px]">This could include professional
+                                programs in fields such as law, medicine, engineering, business, or education</p>
+                            <button class="text-[#fff] text-xl font-bold px-6 rounded-lg py-4 py bg-[#ff4240]">Register
+                                Now!</button>
                         </div>
                     </div>
                 </div>
@@ -190,9 +190,9 @@
         <!-- Card Section -->
 
         <section class="mt-32 flex justify-center">
-            <div class="">
+            <div>
                 <div class="lg:flex lg:gap-6 mb-6">
-                    <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                    <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                         <div class="lg:flex justify-center items-center">
                             <div class="rounded-lg">
                                 <img class="w-[400px] mx-auto h-[250px] lg:w-[180px] lg:h-[172px]" src="Images/5.png"
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                     <!-- 2nd card -->
-                    <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                    <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                         <div class="lg:flex justify-center items-center">
                             <div class="rounded-lg">
                                 <img class="w-[400px] mx-auto h-[250px] lg:w-[180px] lg:h-[172px]" src="Images/6.png"
@@ -267,7 +267,7 @@
                 </div>
                 <!-- third card -->
                 <div class="lg:flex gap-6 lg:gap-6 mb-6">
-                    <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                    <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                         <div class="lg:flex justify-center items-center">
                             <div class="rounded-lg">
                                 <img class="w-[400px] h-[250px] mx-auto lg:w-[180px] lg:h-[172px]" src="Images/7.png"
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <!-- fourth card -->
-                    <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                    <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                         <div class="lg:flex justify-center items-center">
                             <div class="rounded-lg">
                                 <img class="w-[400px] h-[250px] mx-auto lg:w-[180px] lg:h-[172px]" src="Images/8.png"
@@ -341,7 +341,7 @@
                 </div>
                 <!-- fifth card -->
                 <div class="gap-6 lg:flex lg:gap-6">
-                    <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                    <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                         <div class="lg:flex justify-center items-center">
                             <div class="rounded-lg">
                                 <img class="w-[400px] mx-auto h-[250px] lg:w-[180px] lg:h-[172px]" src="Images/9.png"
@@ -378,7 +378,7 @@
                     </div>
                     <!-- sixth card -->
                     <div>
-                        <div class="font-manrope card w-[550px] bg-base-100 shadow-lg">
+                        <div class="font-manrope card lg:w-[550px] bg-base-100 shadow-lg">
                             <div class="mt-5 lg:flex justify-center items-center">
                                 <div class="rounded-lg">
                                     <img class="w-[400px] h-[250px] mx-auto lg:w-[180px] lg:h-[172px]"
