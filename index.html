@@ -20,13 +20,13 @@
 
 </head>
 
-<body class="mx-2 lg:mx-10">
-    <header>
+<body>
+    <header class="mx-2 lg:mx-10">
         <div class="navbar lg:mb-14">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden block">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 lg:hidden" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
@@ -41,7 +41,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <p class=" lg:text-4xl font-extrabold">Hockey<span class="text-[#ff4240]">'</span>s</p>
+                <button class="lg:text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#ff4240]">'</span>s</button>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -53,7 +53,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="bg-[#ff4240] px-4 py-2 lg:px-6 lg:py-4 rounded-md text-white">Get Ticket</a>
+                <button class="bg-[#ff4240] px-4 py-2 lg:px-6 lg:py-4 rounded-md text-white">Get Ticket</button>
             </div>
         </div>
         <!-- slider section -->
@@ -65,12 +65,30 @@
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="lg:absolute">
+                        <div class="bg-[#131318] lg:mt-[350px] lg:ml-[650px] rounded-md px-8 py-8">
+
+                            <h2 class="text-[#fff] text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                            <p class="text-[#FFFFFF99] font-medium">Bowman holds the record for the most coaching wins
+                                in NHL history.</p>
+
+                        </div>
+                    </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="Images/2.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="lg:absolute">
+                        <div class="bg-[#131318] lg:mt-[350px] lg:ml-[650px] rounded-md px-8 py-8">
+
+                            <h2 class="text-[#fff] text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                            <p class="text-[#FFFFFF99] font-medium">Bowman holds the record for the most coaching wins
+                                in NHL history.</p>
+
+                        </div>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
@@ -79,11 +97,21 @@
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
+
+                    <div class="lg:absolute">
+                        <div class="bg-[#131318] lg:mt-[350px] lg:ml-[650px] rounded-md lg:px-8 lg:py-8">
+
+                            <h2 class="text-[#fff] text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                            <p class="text-[#FFFFFF99] font-medium">Bowman holds the record for the most coaching wins
+                                in NHL history.</p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </header>
-    <main>
+    <main class="mx-2 lg:mx-10">
         <!-- Professional hockeys club -->
         <section>
             <div class="text-center font-manrope my-28">
@@ -616,7 +644,7 @@
         </section>
         <!-- social -->
         <section class="mt-12">
-            <div class="bg-[#13131808] h-[140px] lg:h-[120px] py-4">
+            <div class="bg-[#13131808] rounded-md h-[140px] lg:h-[120px] py-4">
                 <div class="mb-6 flex justify-center">
                     <p>Social Media</p>
                 </div>
@@ -628,7 +656,7 @@
     </main>
     <!-- Footer Section -->
 
-    <footer class="footer p-10 bg-[#131318] pb-24 text-neutral-content font-manrope">
+    <footer class="footer p-10 bg-[#131318] mt-9 pb-24 text-neutral-content font-manrope">
 
         <div class="lg:pl-32 pt-20 ">
             <h2 class="text-[#fff] text-3xl font-extrabold pb-4 ml-20 lg:ml-0">Hockey's</h2>
